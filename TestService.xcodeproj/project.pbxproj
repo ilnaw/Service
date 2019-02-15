@@ -10,20 +10,20 @@
 		27D1DB6922169884004EB32F /* TestService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D1DB5F22169884004EB32F /* TestService.framework */; };
 		27D1DB6E22169884004EB32F /* TestServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB6D22169884004EB32F /* TestServiceTests.swift */; };
 		27D1DB7022169884004EB32F /* TestService.h in Headers */ = {isa = PBXBuildFile; fileRef = 27D1DB6222169884004EB32F /* TestService.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27D1DB87221699FC004EB32F /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB7A221699FC004EB32F /* DataConvertible.swift */; };
-		27D1DB88221699FC004EB32F /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB7B221699FC004EB32F /* JSONConvertible.swift */; };
-		27D1DB89221699FC004EB32F /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB7D221699FC004EB32F /* Signature.swift */; };
-		27D1DB8A221699FC004EB32F /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB7E221699FC004EB32F /* Keychain.swift */; };
-		27D1DB8B221699FC004EB32F /* FactoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB7F221699FC004EB32F /* FactoryProvider.swift */; };
-		27D1DB8C221699FC004EB32F /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB80221699FC004EB32F /* ServiceConfiguration.swift */; };
-		27D1DB8D221699FC004EB32F /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB81221699FC004EB32F /* ServiceError.swift */; };
-		27D1DB8E221699FC004EB32F /* ServiceMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB82221699FC004EB32F /* ServiceMiddleware.swift */; };
-		27D1DB8F221699FC004EB32F /* ServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB83221699FC004EB32F /* ServiceResponse.swift */; };
-		27D1DB90221699FC004EB32F /* TestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB85221699FC004EB32F /* TestApi.swift */; };
-		27D1DB91221699FC004EB32F /* ServiceMiddlewarePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DB86221699FC004EB32F /* ServiceMiddlewarePlugin.swift */; };
 		27D1DB942216A2AC004EB32F /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D1DB932216A2AC004EB32F /* Result.framework */; };
 		27D1DB962216A2BE004EB32F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D1DB952216A2BD004EB32F /* SwiftyJSON.framework */; };
 		27D1DB982216A2C9004EB32F /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D1DB972216A2C9004EB32F /* Moya.framework */; };
+		27D1DBAB2216ACEF004EB32F /* FactoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBA32216ACEE004EB32F /* FactoryProvider.swift */; };
+		27D1DBAC2216ACEF004EB32F /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBA42216ACEE004EB32F /* DataConvertible.swift */; };
+		27D1DBAD2216ACEF004EB32F /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBA52216ACEE004EB32F /* ServiceError.swift */; };
+		27D1DBAE2216ACEF004EB32F /* ServiceMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBA62216ACEE004EB32F /* ServiceMiddleware.swift */; };
+		27D1DBAF2216ACEF004EB32F /* ServiceMiddlewarePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBA72216ACEE004EB32F /* ServiceMiddlewarePlugin.swift */; };
+		27D1DBB02216ACEF004EB32F /* JSONConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBA82216ACEF004EB32F /* JSONConvertible.swift */; };
+		27D1DBB12216ACEF004EB32F /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBA92216ACEF004EB32F /* ServiceConfiguration.swift */; };
+		27D1DBB22216ACEF004EB32F /* ServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBAA2216ACEF004EB32F /* ServiceResponse.swift */; };
+		27D1DBB82216AD09004EB32F /* TestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBB42216AD09004EB32F /* TestApi.swift */; };
+		27D1DBB92216AD09004EB32F /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBB62216AD09004EB32F /* Signature.swift */; };
+		27D1DBBA2216AD09004EB32F /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBB72216AD09004EB32F /* Keychain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,20 +43,20 @@
 		27D1DB6822169884004EB32F /* TestServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D1DB6D22169884004EB32F /* TestServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestServiceTests.swift; sourceTree = "<group>"; };
 		27D1DB6F22169884004EB32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27D1DB7A221699FC004EB32F /* DataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
-		27D1DB7B221699FC004EB32F /* JSONConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONConvertible.swift; sourceTree = "<group>"; };
-		27D1DB7D221699FC004EB32F /* Signature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
-		27D1DB7E221699FC004EB32F /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
-		27D1DB7F221699FC004EB32F /* FactoryProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryProvider.swift; sourceTree = "<group>"; };
-		27D1DB80221699FC004EB32F /* ServiceConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceConfiguration.swift; sourceTree = "<group>"; };
-		27D1DB81221699FC004EB32F /* ServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
-		27D1DB82221699FC004EB32F /* ServiceMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceMiddleware.swift; sourceTree = "<group>"; };
-		27D1DB83221699FC004EB32F /* ServiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceResponse.swift; sourceTree = "<group>"; };
-		27D1DB85221699FC004EB32F /* TestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestApi.swift; sourceTree = "<group>"; };
-		27D1DB86221699FC004EB32F /* ServiceMiddlewarePlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceMiddlewarePlugin.swift; sourceTree = "<group>"; };
 		27D1DB932216A2AC004EB32F /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = SOURCE_ROOT; };
 		27D1DB952216A2BD004EB32F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = SOURCE_ROOT; };
 		27D1DB972216A2C9004EB32F /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = SOURCE_ROOT; };
+		27D1DBA32216ACEE004EB32F /* FactoryProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactoryProvider.swift; sourceTree = "<group>"; };
+		27D1DBA42216ACEE004EB32F /* DataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
+		27D1DBA52216ACEE004EB32F /* ServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		27D1DBA62216ACEE004EB32F /* ServiceMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceMiddleware.swift; sourceTree = "<group>"; };
+		27D1DBA72216ACEE004EB32F /* ServiceMiddlewarePlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceMiddlewarePlugin.swift; sourceTree = "<group>"; };
+		27D1DBA82216ACEF004EB32F /* JSONConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONConvertible.swift; sourceTree = "<group>"; };
+		27D1DBA92216ACEF004EB32F /* ServiceConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceConfiguration.swift; sourceTree = "<group>"; };
+		27D1DBAA2216ACEF004EB32F /* ServiceResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceResponse.swift; sourceTree = "<group>"; };
+		27D1DBB42216AD09004EB32F /* TestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestApi.swift; sourceTree = "<group>"; };
+		27D1DBB62216AD09004EB32F /* Signature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
+		27D1DBB72216AD09004EB32F /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,17 @@
 		27D1DB6122169884004EB32F /* TestService */ = {
 			isa = PBXGroup;
 			children = (
+				27D1DBB32216AD09004EB32F /* remoteService */,
+				27D1DBB52216AD09004EB32F /* Security */,
+				27D1DBA42216ACEE004EB32F /* DataConvertible.swift */,
+				27D1DBA32216ACEE004EB32F /* FactoryProvider.swift */,
+				27D1DBA82216ACEF004EB32F /* JSONConvertible.swift */,
+				27D1DBA92216ACEF004EB32F /* ServiceConfiguration.swift */,
+				27D1DBA52216ACEE004EB32F /* ServiceError.swift */,
+				27D1DBA62216ACEE004EB32F /* ServiceMiddleware.swift */,
+				27D1DBA72216ACEE004EB32F /* ServiceMiddlewarePlugin.swift */,
+				27D1DBAA2216ACEF004EB32F /* ServiceResponse.swift */,
 				27D1DB6222169884004EB32F /* TestService.h */,
-				27D1DB79221699FC004EB32F /* Service */,
 				27D1DB6322169884004EB32F /* Info.plist */,
 			);
 			path = TestService;
@@ -119,40 +128,6 @@
 			path = TestServiceTests;
 			sourceTree = "<group>";
 		};
-		27D1DB79221699FC004EB32F /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				27D1DB7A221699FC004EB32F /* DataConvertible.swift */,
-				27D1DB7B221699FC004EB32F /* JSONConvertible.swift */,
-				27D1DB7C221699FC004EB32F /* Security */,
-				27D1DB7F221699FC004EB32F /* FactoryProvider.swift */,
-				27D1DB80221699FC004EB32F /* ServiceConfiguration.swift */,
-				27D1DB81221699FC004EB32F /* ServiceError.swift */,
-				27D1DB82221699FC004EB32F /* ServiceMiddleware.swift */,
-				27D1DB83221699FC004EB32F /* ServiceResponse.swift */,
-				27D1DB84221699FC004EB32F /* remoteService */,
-				27D1DB86221699FC004EB32F /* ServiceMiddlewarePlugin.swift */,
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		27D1DB7C221699FC004EB32F /* Security */ = {
-			isa = PBXGroup;
-			children = (
-				27D1DB7D221699FC004EB32F /* Signature.swift */,
-				27D1DB7E221699FC004EB32F /* Keychain.swift */,
-			);
-			path = Security;
-			sourceTree = "<group>";
-		};
-		27D1DB84221699FC004EB32F /* remoteService */ = {
-			isa = PBXGroup;
-			children = (
-				27D1DB85221699FC004EB32F /* TestApi.swift */,
-			);
-			path = remoteService;
-			sourceTree = "<group>";
-		};
 		27D1DB922216A286004EB32F /* Framework */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +136,23 @@
 				27D1DB932216A2AC004EB32F /* Result.framework */,
 			);
 			path = Framework;
+			sourceTree = "<group>";
+		};
+		27D1DBB32216AD09004EB32F /* remoteService */ = {
+			isa = PBXGroup;
+			children = (
+				27D1DBB42216AD09004EB32F /* TestApi.swift */,
+			);
+			path = remoteService;
+			sourceTree = "<group>";
+		};
+		27D1DBB52216AD09004EB32F /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				27D1DBB62216AD09004EB32F /* Signature.swift */,
+				27D1DBB72216AD09004EB32F /* Keychain.swift */,
+			);
+			path = Security;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +217,7 @@
 				TargetAttributes = {
 					27D1DB5E22169884004EB32F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					27D1DB6722169884004EB32F = {
 						CreatedOnToolsVersion = 10.1;
@@ -271,17 +264,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D1DB89221699FC004EB32F /* Signature.swift in Sources */,
-				27D1DB8E221699FC004EB32F /* ServiceMiddleware.swift in Sources */,
-				27D1DB8A221699FC004EB32F /* Keychain.swift in Sources */,
-				27D1DB8C221699FC004EB32F /* ServiceConfiguration.swift in Sources */,
-				27D1DB8B221699FC004EB32F /* FactoryProvider.swift in Sources */,
-				27D1DB87221699FC004EB32F /* DataConvertible.swift in Sources */,
-				27D1DB8F221699FC004EB32F /* ServiceResponse.swift in Sources */,
-				27D1DB91221699FC004EB32F /* ServiceMiddlewarePlugin.swift in Sources */,
-				27D1DB8D221699FC004EB32F /* ServiceError.swift in Sources */,
-				27D1DB90221699FC004EB32F /* TestApi.swift in Sources */,
-				27D1DB88221699FC004EB32F /* JSONConvertible.swift in Sources */,
+				27D1DBB22216ACEF004EB32F /* ServiceResponse.swift in Sources */,
+				27D1DBB12216ACEF004EB32F /* ServiceConfiguration.swift in Sources */,
+				27D1DBAF2216ACEF004EB32F /* ServiceMiddlewarePlugin.swift in Sources */,
+				27D1DBB02216ACEF004EB32F /* JSONConvertible.swift in Sources */,
+				27D1DBAD2216ACEF004EB32F /* ServiceError.swift in Sources */,
+				27D1DBBA2216AD09004EB32F /* Keychain.swift in Sources */,
+				27D1DBAE2216ACEF004EB32F /* ServiceMiddleware.swift in Sources */,
+				27D1DBAB2216ACEF004EB32F /* FactoryProvider.swift in Sources */,
+				27D1DBAC2216ACEF004EB32F /* DataConvertible.swift in Sources */,
+				27D1DBB92216AD09004EB32F /* Signature.swift in Sources */,
+				27D1DBB82216AD09004EB32F /* TestApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +422,7 @@
 		27D1DB7422169884004EB32F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -449,6 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wanli.TestService;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,6 +452,7 @@
 		27D1DB7522169884004EB32F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
