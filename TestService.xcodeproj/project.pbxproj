@@ -24,6 +24,8 @@
 		27D1DBB82216AD09004EB32F /* TestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBB42216AD09004EB32F /* TestApi.swift */; };
 		27D1DBB92216AD09004EB32F /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBB62216AD09004EB32F /* Signature.swift */; };
 		27D1DBBA2216AD09004EB32F /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1DBB72216AD09004EB32F /* Keychain.swift */; };
+		27D1DBC52216B166004EB32F /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D1DBC32216B166004EB32F /* RxCocoa.framework */; };
+		27D1DBC62216B166004EB32F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D1DBC42216B166004EB32F /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		27D1DBB42216AD09004EB32F /* TestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestApi.swift; sourceTree = "<group>"; };
 		27D1DBB62216AD09004EB32F /* Signature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
 		27D1DBB72216AD09004EB32F /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		27D1DBC32216B166004EB32F /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
+		27D1DBC42216B166004EB32F /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D1DBC62216B166004EB32F /* RxSwift.framework in Frameworks */,
+				27D1DBC52216B166004EB32F /* RxCocoa.framework in Frameworks */,
 				27D1DB962216A2BE004EB32F /* SwiftyJSON.framework in Frameworks */,
 				27D1DB982216A2C9004EB32F /* Moya.framework in Frameworks */,
 				27D1DB942216A2AC004EB32F /* Result.framework in Frameworks */,
@@ -131,6 +137,8 @@
 		27D1DB922216A286004EB32F /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				27D1DBC32216B166004EB32F /* RxCocoa.framework */,
+				27D1DBC42216B166004EB32F /* RxSwift.framework */,
 				27D1DB972216A2C9004EB32F /* Moya.framework */,
 				27D1DB952216A2BD004EB32F /* SwiftyJSON.framework */,
 				27D1DB932216A2AC004EB32F /* Result.framework */,
